@@ -1,0 +1,32 @@
+@import '../../../styles/base/medias';
+
+.container {
+  width: 100%;
+  padding: 1rem;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+
+  @include sm {
+    margin: 0 auto;
+    max-width: 960px;
+  }
+
+  li:first-child {
+    margin-right: auto;
+  }
+
+  li {
+    font-size: 16px;
+    font-weight: 100;
+    margin: 1rem;
+    display: block;
+  }
+
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+}

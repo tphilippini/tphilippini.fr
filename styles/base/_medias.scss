@@ -1,0 +1,37 @@
+// ------------------------------------------------------------
+// MEDIAS
+// ------------------------------------------------------------
+
+@import "breakpoints";
+
+// Small devices
+@mixin sm {
+  @media (min-width: #{$screen-sm-min}) {
+    // background-color: red;
+    @content;
+  }
+}
+
+// Medium devices
+@mixin md {
+  @media (min-width: #{$screen-md-min}) {
+    // background-color: green;
+    @content;
+  }
+}
+
+// Large devices
+@mixin lg {
+  @media (min-width: #{$screen-lg-min}) {
+    // background-color: yellow;
+    @content;
+  }
+}
+
+// Extra large devices
+@mixin xl {
+  @media (min-width: #{$screen-xl-min}) {
+    // background-color: blue;
+    @content;
+  }
+}

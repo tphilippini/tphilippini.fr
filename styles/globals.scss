@@ -1,0 +1,46 @@
+@import 'base/colors';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+html,
+body {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  position: relative;
+  color: initial;
+  text-decoration: none;
+  cursor: pointer;
+
+  &::after {
+    content: '';
+    border: 1px solid $color-primary;
+    position: absolute;
+    bottom: -11px;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.2s, transform 0.2s;
+  }
+
+  &:hover::after {
+    opacity: 1;
+    transform: translateY(-5px);
+  }
+}
