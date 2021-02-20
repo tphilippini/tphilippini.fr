@@ -3,7 +3,6 @@
 // ------------------------------------------------------------
 
 $color-mint: hsl(164, 61%, 65%);
-$color-mint: hsl(164, 61%, 65%);
 $color-mint-up: hsl(148, 35%, 74%);
 $color-mint-down: hsl(163, 36%, 51%);
 $color-lilac: hsl(264, 51%, 71%);
@@ -33,3 +32,8 @@ $color-dark-selection: rgba(64, 64, 64, 0.99);
 
 // PRIMARY COLOR
 $color-primary: $color-mint;
+$color-primary-selection: $color-mint-selection;
+
+// SECONDARY COLOR
+$color-secondary: $color-lilac;
+$color-secondary-selection: $color-lilac-selection;

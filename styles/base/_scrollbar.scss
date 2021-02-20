@@ -1,0 +1,21 @@
+// ------------------------------------------------------------
+// SCROLLBAR
+// ------------------------------------------------------------
+
+body {
+  scrollbar-width: thin;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+// body::-webkit-scrollbar-track {
+//   background: $color-sherbet-fade;
+// }
+
+body::-webkit-scrollbar-thumb {
+  background-color: $color-primary;
+  border-radius: 6px;
+  border: 0;
+}

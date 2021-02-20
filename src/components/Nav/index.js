@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 import styles from './nav.module.scss';
 
-export default () => (
+const Nav = () => (
   <nav className={styles.container} role="navigation">
     <ul className={styles.menu}>
       <li>
@@ -12,9 +12,18 @@ export default () => (
         </Link>
       </li>
 
-      {/* <li>workshop</li>
-      <li>about</li>
-      <li>resume</li> */}
+      <li>
+        <Link href="#projects">
+          <a>projects</a>
+        </Link>
+      </li>
+      {/* <li>
+        <Link href="/">
+          <a className={'secondary'}>resume</a>
+        </Link>
+      </li> */}
     </ul>
   </nav>
 );
+
+export default Nav;
