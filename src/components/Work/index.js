@@ -1,11 +1,9 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import Waves from '../Waves';
 
 import styles from './work.module.scss';
 
 const data = require('./projects.json');
-console.log(data);
 
 const Work = () => (
   <section id="projects" className={styles.container}>
@@ -18,13 +16,6 @@ const Work = () => (
       {data.map((item, index) => (
         <article key={index} className={styles.card}>
           <Waves waveClass={'project'} />
-          <Image
-            className={styles.img}
-            src="/images/scoreboard.png"
-            alt="Scoreboard"
-            width={300}
-            height={120}
-          />
           {item.id} In progress...
         </article>
       ))}

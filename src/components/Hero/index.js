@@ -2,7 +2,7 @@ import Head from 'next/head';
 
 import styles from './hero.module.scss';
 
-export default () => (
+const Home = () => (
   <section className={styles.container}>
     <h1 className={styles.title}>
       👋 &nbsp;Hey, I'm Thomas.
@@ -28,3 +28,5 @@ export default () => (
     </h3>
   </section>
 );
+
+export default Home;
