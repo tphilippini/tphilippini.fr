@@ -1,6 +1,7 @@
 import Head from 'next/head';
 
 import Nav from '../src/components/Nav';
+import Waves from '../src/components/Waves';
 import '../styles/globals.scss';
 
 export default function App({ Component, pageProps }) {
@@ -14,6 +15,8 @@ export default function App({ Component, pageProps }) {
           content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1, minimal-ui, shrink-to-fit=no"
         />
       </Head>
+
+      <Waves />
 
       <Nav />
 

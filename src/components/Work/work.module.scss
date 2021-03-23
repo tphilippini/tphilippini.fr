@@ -25,7 +25,7 @@
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-auto-rows: minmax(500px, auto);
+  // grid-auto-rows: minmax(400px, auto);
   grid-gap: 1rem;
   margin-top: 2rem;
 }
@@ -38,30 +38,34 @@
   box-shadow: 0 6px 12px -2px rgb(50 50 93 / 20%),
     0 3px 0px -3px rgb(0 0 0 / 10%);
   border-radius: 4px;
+  height: 300px;
 
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  color: #5d5e5e;
-  transition-duration: 0.3s;
+  // display: flex;
+  // flex-direction: column;
+  // position: relative;
+  // color: #5d5e5e;
+  // transition-duration: 0.3s;
 
-  &::after {
-    background-image: linear-gradient(120deg, $color-secondary, $color-primary);
-    content: '';
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: -50%;
-    left: 0;
-    transform: skewY(-11deg);
-    z-index: -1;
-  }
+  // &::after {
+  //   background-image: linear-gradient(120deg, $color-secondary, $color-primary);
+  //   content: '';
+  //   width: 100%;
+  //   height: 100%;
+  //   position: absolute;
+  //   top: -50%;
+  //   left: 0;
+  //   transform: skewY(-11deg);
+  //   z-index: -1;
+  // }
 
   &:hover {
-    transform: translateY(-2px);
-
-    &::after {
-      transform: skewY(11deg);
-    }
+    cursor: pointer;
+    transform: translateY(-5px);
   }
+}
+
+.img {
+  border-radius: 5px;
+  object-fit: cover;
+  width: 100%;
 }

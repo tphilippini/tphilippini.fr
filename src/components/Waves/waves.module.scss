@@ -1,0 +1,45 @@
+@import '../../../styles/base/colors';
+@import '../../../styles/base/medias';
+
+.container {
+  padding-top: 50px;
+  padding-bottom: 0;
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: $color-primary-selection;
+  z-index: -1;
+  height: 120px;
+
+  @include sm {
+    padding-top: 60px;
+    height: 180px;
+  }
+
+  &.project {
+    padding-top: 130px;
+    background-color: $color-secondary;
+    height: 190px;
+
+    .waves {
+      height: 80px;
+    }
+  }
+
+  .waves {
+    display: block;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    mask: url('/images/wave.svg');
+    position: absolute;
+    background: #fff;
+    z-index: -1;
+
+    @include sm {
+      height: 140px;
+    }
+  }
+}

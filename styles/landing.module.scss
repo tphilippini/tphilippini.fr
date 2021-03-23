@@ -1,6 +1,6 @@
-@import "base/medias";
-@import "base/mixins";
-@import "base/colors";
+@import 'base/medias';
+@import 'base/mixins';
+@import 'base/colors';
 
 .container {
   min-height: 100vh;
@@ -96,7 +96,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: "100%";
+  width: '100%';
   flex-wrap: wrap;
   flex-direction: column;
   margin-top: 3rem;

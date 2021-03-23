@@ -1,10 +1,8 @@
 [
   {
     "id": 1,
-    "gender": "Female"
-  },
-  {
-    "id": 2,
-    "gender": "Male"
+    "name": "NBA Scoreboard",
+    "img": "/images/scoreboard.png",
+    "repo": "https://github.com/tphilippini/nbapp_app"
   }
 ]
