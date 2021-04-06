@@ -9,6 +9,7 @@
     "deploy": "vercel --prod"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
     "classnames": "^2.2.6",
     "next": "10.0.7",
     "react": "17.0.1",

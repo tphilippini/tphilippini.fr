@@ -2,7 +2,7 @@
 @import '../../../styles/base/medias';
 
 .container {
-  padding-top: 50px;
+  padding-top: 75px;
   padding-bottom: 0;
   position: absolute;
   display: inline-block;
@@ -11,7 +11,7 @@
   width: 100%;
   background-color: $color-primary-selection;
   z-index: -1;
-  height: 120px;
+  height: 110px;
 
   @include sm {
     padding-top: 60px;
