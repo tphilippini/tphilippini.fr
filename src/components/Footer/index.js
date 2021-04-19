@@ -10,7 +10,7 @@ const Footer = () => (
       {/* <li>
         <Link href="https://github.com/tphilippini">
           <a>
-            <i class="fab fa-github"></i>
+            <i className="fab fa-github"></i>
           </a>
         </Link>
       </li> */}

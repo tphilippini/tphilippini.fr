@@ -18,21 +18,21 @@ const Nav = () => (
 
       <li>
         <Link href="https://github.com/tphilippini">
-          <a>
-            <i class="fab fa-github-alt fa-2x" />
+          <a target="_blank">
+            <i className="fab fa-github-alt fa-lg" />
           </a>
         </Link>
       </li>
       <li>
         <Link href="mailto:thomas.philippini@gmail.com">
-          <a>
-            <i class="far fa-envelope fa-2x" />
+          <a target="_blank">
+            <i className="far fa-envelope fa-lg" />
           </a>
         </Link>
       </li>
       <li>
         <a
-          href="/pdf/thomas_philippini.pdf"
+          href="/pdf/resume_tphilippini.pdf"
           target="_blank"
           className={classnames('secondary', styles.resume)}
         >

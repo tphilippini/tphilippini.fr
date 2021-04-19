@@ -20,4 +20,11 @@ export default [
     source: 'https://github.com/tphilippini/crud',
     description: 'Build a CRUD app in React with Hooks.',
   },
+  {
+    icon: '🎮',
+    title: 'Jigsaw Game',
+    path: 'https://tphilippini.github.io/jigsaw/',
+    source: 'https://github.com/tphilippini/jigsaw',
+    description: 'Build on ReactJS with Hooks, Styled Components.',
+  },
 ];
