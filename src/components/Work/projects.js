@@ -2,14 +2,14 @@ export default [
   {
     icon: '🏀',
     title: 'Hoops feed APP',
-    path: 'https://app.tphilippini.fr',
+    path: 'https://nbapp-app.herokuapp.com/',
     source: 'https://github.com/tphilippini/nbapp_app/',
     description: 'Build a basketball scoreboard app in React.',
   },
   {
     icon: '⛏️',
     title: 'Hoops feed API',
-    path: 'https://api.tphilippini.fr',
+    path: 'https://nbapp-api.herokuapp.com/',
     source: 'https://github.com/tphilippini/nbapp_api/',
     description: 'A RESTful API in Node, Express and MongoDB.',
   },
