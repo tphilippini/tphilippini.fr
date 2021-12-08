@@ -9,6 +9,7 @@
 .menu {
   display: flex;
   justify-content: center;
+  align-items: center;
 
   @include sm {
     margin: 0 auto;
@@ -25,5 +26,12 @@
     // &:first-child {
     //   margin-right: auto;
     // }
+
+    &.version {
+      font-size: 11px;
+      background-color: rgba($color-primary, 0.6);
+      padding: 5px;
+      border-radius: 2px;
+    }
   }
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 // import Link from 'next/link';
 import styles from './footer.module.scss';
+import packageJson from '../../../package.json';
 
 const Footer = () => (
   <footer className={styles.container}>
@@ -15,6 +16,7 @@ const Footer = () => (
         </Link>
       </li> */}
       <li>☕</li>
+      <li className={styles.version}>v{packageJson.version}</li>
     </ul>
   </footer>
 );
