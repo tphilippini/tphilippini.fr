@@ -1,10 +1,17 @@
 export default [
   {
-    icon: '🏀',
-    title: 'Hoops feed APP',
-    path: 'https://nbapp-app.herokuapp.com/',
+    icon: '📱',
+    title: 'Hoops feed Mobile App',
+    path: 'https://expo.dev/@tphilippini/nbapp_app',
     source: 'https://github.com/tphilippini/nbapp_app/',
-    description: 'Build a basketball scoreboard app in React.',
+    description: 'Build a basketball scoreboard app in React Native.',
+  },
+  {
+    icon: '🏀',
+    title: 'Hoops feed Website',
+    path: 'https://nbapp-app.herokuapp.com/',
+    source: 'https://github.com/tphilippini/nbapp_web/',
+    description: 'Build a basketball scoreboard website in React.',
   },
   {
     icon: '⛏️',
